@@ -6,6 +6,8 @@ PRODUCT_SHIPPING_API_LEVEL :=
 
 PRODUCT_PACKAGES := $(filter-out CalendarGoogle, $(PRODUCT_PACKAGES))
 PRODUCT_PACKAGES := $(filter-out GoogleContacts, $(PRODUCT_PACKAGES))
+PRODUCT_PACKAGES := $(filter-out SearchLauncherQuickStep, $(PRODUCT_PACKAGES))
+
 
 PRODUCT_PACKAGES += \
 	phh-gapps-overrides \
